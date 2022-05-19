@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.whole{
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.NFT-card{
+    height:600px ;
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    text-align: center;
+    margin: 5rem auto;
+    box-shadow: 30px 30px 50px hsl(218, 53%, 9%);
+    position: relative;
+}
+#NFT-img{
+    height: 300px;
+    width: 310px;
+    border-radius: 10px;
+    margin: 20px auto 0px;
+    display: block;
+    
+}
+.overlay{
+    position: absolute;
+    height: 300px;
+    width: 310px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:hsl(178, 100%, 50%) ;
+    top: 3.3%;
+    left: 5.7%;
+    border-radius: 10px;
+}
+.overlay:hover {
+    opacity: 0.5;
+}
+#middle{
+    height: 50px;
+    width: 50px;
+    margin: 120px auto;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family:'Outfit', sans-serif;
+    text-align: left;
+    margin: 15px 20px;
+}
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+p{
+    font-family:'Outfit', sans-serif;
+}
+.line1{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    margin: 15px 20px 25px;
+}
+#icon1{
+    text-align: left;
+    display: inline;
+}
+.ETH-value{
+    color:hsl(178, 100%, 50%) ;
+    display: inline;
+    text-align: left;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#icon2{
+    display: inline;
+    text-align: right;
+    margin-left: 50px;
+}
+.days-left{
+    color: hsl(215, 51%, 70%);
+    display: inline;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+}
+hr{
+    margin: 25px 20px 20px 20px;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    color:hsl(215, 32%, 27%)    
+}
+#image-avatar{
+    height: 30px;
+    width: 30px;
+    border:1px solid hsl(0, 0%, 100%);
+    border-radius: 50%; 
+    display: inline;   
+}
+.created-by{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    display: inline;
+    float: right;
+    margin: 5px 70px 0px 0px; 
+}
+span{
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
